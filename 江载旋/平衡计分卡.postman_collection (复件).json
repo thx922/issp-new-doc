@@ -1,0 +1,58 @@
+{
+	"id": "1b71a19d-f1ff-baad-4068-1b7495999f31",
+	"name": "平衡计分卡",
+	"description": "",
+	"order": [
+		"fb1ade04-8d1b-ae09-2126-7baf3099308c"
+	],
+	"folders": [],
+	"timestamp": 1500017692493,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "fb1ade04-8d1b-ae09-2126-7baf3099308c",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\nuserToken: a84fa0401a294bd3972e58e2a2a6dc4b.2130706689.1500014517512\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "userToken",
+					"value": "a84fa0401a294bd3972e58e2a2a6dc4b.2130706689.1500014517512",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:51234/departmonindexset/v1/leadExcel",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1b71a19d-f1ff-baad-4068-1b7495999f31",
+			"data": [
+				{
+					"key": "files",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:51234/departmonindexset/v1/leadExcel",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500017715553,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
