@@ -518,16 +518,16 @@
 
 		修改：社保增员前参考信息：
 			添加和编辑字段：
-				公司名称，下拉框  beforeadd/v1/firmNames
+				公司名称，下拉框(可编辑)   beforeadd/v1/firmNames
 
 
 		   社保增员信息内容：
 			添加和编辑字段：
-				姓名，下拉框   	  addemployee/v1/findUser
-				员工编号，下拉框    addemployee/v1/findUser
-				地区，下拉框      addemployee/v1/findArea
-				项目组，下拉框    addemployee/v1/findDepart	
-				岗位，下来框    addemployee/v1/findPosition
+				姓名，下拉框 (可编辑)   	  addemployee/v1/findUser
+				员工编号，下拉框(可编辑)     addemployee/v1/findUser
+				地区，下拉框   (可编辑)    addemployee/v1/findArea
+				项目组，下拉框 (可编辑)    addemployee/v1/findDepart	
+				岗位，下来框   (可编辑)  addemployee/v1/findPosition
 				岗位层级，下来框    addemployee/v1/findPosition
 				身份证号码，下拉框（可编辑）    addemployee/v1/userInfo/{name}    （传姓名）
 				身份证籍贯，下拉框（可编辑）    addemployee/v1/userInfo/{name}    （传姓名）
@@ -536,12 +536,18 @@
 
 		员工社保基本信息：
 			添加和编辑字段：
-				姓名，下拉框   	  addemployee/v1/findUser
-				员工编号，下拉框    addemployee/v1/findUser
+				姓名，下拉框(可编辑)    	  addemployee/v1/findUser
+				员工编号，下拉框(可编辑)    addemployee/v1/findUser
 				身份证号码，下拉框（可编辑）    addemployee/v1/userInfo/{name}    （传姓名）
 				身份证籍贯，下拉框（可编辑）    addemployee/v1/userInfo/{name}    （传姓名）
 				联系方式，下拉框（可编辑）    addemployee/v1/userInfo/{name}    （传姓名）
- 
+
+		社保卡基本信息记录:
+			添加和编辑字段:	
+				姓名，下拉框(可编辑)   	  addemployee/v1/findUser
+				员工编号，下拉框(可编辑)     addemployee/v1/findUser
+				地区，下拉框(可编辑)       addemployee/v1/findArea
+ 				
 				
 
 
