@@ -194,6 +194,7 @@
 					体系，下拉框（可编辑）   promotionapply/v1/allHierarchys
 					岗位，下拉框（可编辑）   promotionapply/v1/findPosition
 					姓名，下拉框（可编辑）   promotionapply/v1/allNum
+					已晋升次数，数字框，可编辑（通过员工编号获取）    promotionapply/v1/findNum/{num}
 					加上字段:
 					在我司工龄(月)，小数框，非必填
 					转正时间， 时间框（具体到年月日），非必填
